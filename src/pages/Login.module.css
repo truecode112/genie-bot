@@ -1,0 +1,382 @@
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.how {
+  color: var(--color-thistle-200);
+}
+.howToGetContainer {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 298px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.howToGetStartedInner,
+.howToGetStartedWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.howToGetStartedWrapper {
+  background-color: var(--color-gray-200);
+}
+.howToGetStartedInner {
+  padding: var(--padding-11xl) 0 0;
+}
+.div {
+  position: relative;
+  font-weight: 500;
+}
+.wrapper {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-thistle-200);
+  width: 34px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+}
+.span {
+  color: var(--color-black);
+}
+.yourWallet {
+  color: var(--color-white);
+}
+.connectYourWalletWrapper,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.connectYourWalletWrapper {
+  padding: var(--padding-3xs) 0;
+  align-items: center;
+  color: var(--color-thistle-200);
+}
+.frameContainer {
+  align-self: stretch;
+  background-color: var(--color-thistle-400);
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.desktopOnly {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-neue-montreal);
+  color: var(--color-black);
+  text-align: center;
+}
+.desktopOnlyWrapper,
+.frameDiv,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.desktopOnlyWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-6xl);
+  background-color: var(--color-white);
+  flex-direction: row;
+}
+.frameDiv,
+.frameGroup {
+  flex-direction: column;
+  padding: var(--padding-3xs);
+}
+.frameGroup {
+  background: linear-gradient(
+    180deg,
+    rgba(209, 195, 234, 0),
+    rgba(231, 220, 249, 0) 94.79%,
+    rgba(211, 197, 236, 0) 99.99%,
+    rgba(216, 201, 241, 0)
+  );
+  backdrop-filter: blur(4px);
+  width: 295px;
+  height: 216px;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.frameWrapper {
+  background-color: var(--color-gray-500);
+  width: 330px;
+  height: 250px;
+  align-items: center;
+}
+.chooseYourGenieWrapper,
+.container,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-thistle-200);
+  overflow: hidden;
+  padding: var(--padding-3xs) var(--padding-xs);
+  align-items: flex-start;
+}
+.chooseYourGenieWrapper {
+  padding: var(--padding-mini) 0 var(--padding-3xs);
+  align-items: center;
+  color: var(--color-thistle-100);
+}
+.chooseTheType {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.chooseTheTypeAndLengthOfWrapper,
+.frameParent1 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.chooseTheTypeAndLengthOfWrapper {
+  background-color: var(--color-gray-400);
+  width: 240px;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.frameParent1 {
+  background: linear-gradient(
+    180deg,
+    rgba(230, 222, 242, 0),
+    rgba(194, 180, 219, 0)
+  );
+  width: 340px;
+  height: 232px;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0;
+  justify-content: flex-start;
+}
+.frame,
+.weWillContactYouOnTelegraWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-thistle-200);
+  overflow: hidden;
+  padding: var(--padding-3xs) var(--padding-2xs);
+  justify-content: center;
+}
+.weWillContactYouOnTelegraWrapper {
+  background-color: var(--color-thistle-500);
+  width: 240px;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.frameParent,
+.frameParent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  background: linear-gradient(
+    180deg,
+    rgba(191, 177, 214, 0) 43.23%,
+    rgba(221, 215, 232, 0)
+  );
+  width: 280px;
+  height: 226px;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-100);
+}
+.forQuestionsWrapper,
+.frameWrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper3 {
+  background-color: var(--color-thistle-400);
+  width: 277px;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pleaseContactGeniebotinfo {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 266px;
+  flex-shrink: 0;
+}
+.frameParent6,
+.pleaseContactGeniebotinfoOWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pleaseContactGeniebotinfoOWrapper {
+  background-color: var(--color-thistle-500);
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  font-size: var(--font-size-base);
+}
+.frameParent6 {
+  flex: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(191, 177, 214, 0) 43.23%,
+    rgba(221, 215, 232, 0)
+  );
+  flex-direction: column;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-3xs);
+}
+.atomsiconsblackcurveEdget {
+  position: relative;
+  border-radius: var(--br-mini);
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.atomsiconsblackcurveEdgetWrapper,
+.frameParent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.atomsiconsblackcurveEdgetWrapper {
+  align-self: stretch;
+  flex: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(191, 177, 214, 0) 43.23%,
+    rgba(221, 215, 232, 0)
+  );
+  padding: var(--padding-3xs) 0;
+}
+.frameParent5 {
+  background-color: var(--color-darkslategray);
+  width: 334px;
+  height: 324px;
+  font-size: var(--font-size-xl);
+}
+.howToGetStarted,
+.howToGetStartedIpadphone {
+  background-color: var(--color-gray-200);
+  align-items: center;
+}
+.howToGetStarted {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-base);
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.howToGetStartedIpadphone {
+  align-self: stretch;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  justify-content: center;
+}
+.howDoesItWork {
+  margin: 0;
+}
+.howDoesItContainer {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 402px;
+  height: 68px;
+  flex-shrink: 0;
+}
+.howToGetStartedChild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.howToGetStarted2 {
+  align-self: stretch;
+  padding: var(--padding-31xl) var(--padding-45xl) var(--padding-3xs);
+  align-items: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-26xl);
+}
+.autolayout,
+.howToGetStarted2,
+.login {
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.autolayout {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-31xl);
+  
+  animation: fadeIn 2s ease-in-out;
+  -webkit-animation: fadeIn 2s ease-in-out;
+  -moz-animation: fadeIn 2s ease-in-out;
+  -o-animation: fadeIn 2s ease-in-out;
+  -ms-animation: fadeIn 2s ease-in-out;
+}
+.login {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-white);
+  font-family: var(--font-neue-montreal);
+  background-color: var(--color-gray-200)
+}
+@media screen and (max-width: 1200px) {
+  .howDoesItContainer {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 960px) {
+  .howToGetStartedIpadphone {
+    display: flex;
+  }
+  .howToGetStarted2 {
+    display: none;
+  }
+}

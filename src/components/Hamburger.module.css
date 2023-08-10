@@ -1,0 +1,74 @@
+.home {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+  padding-bottom: 2px; /* adjust as needed */
+  border-bottom: 1px solid #D8C9F1; /* adjust as needed */
+}
+  .hamburgerMenuItems,
+  .hamburgerMenuItems1,
+  .hamburgerMenuItems2,
+  .hamburgerMenuItems3,
+  .hamburgerMenuItems4,
+  .hamburgerMenuItems5 {
+    background-color: var(--color-white);
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-mini) 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .hamburgerMenuItems1,
+  .hamburgerMenuItems2,
+  .hamburgerMenuItems3,
+  .hamburgerMenuItems4,
+  .hamburgerMenuItems5 {
+    z-index: 1;
+  }
+  .hamburgerMenuItems2,
+  .hamburgerMenuItems3,
+  .hamburgerMenuItems4,
+  .hamburgerMenuItems5 {
+    z-index: 2;
+  }
+  .hamburgerMenuItems3,
+  .hamburgerMenuItems4,
+  .hamburgerMenuItems5 {
+    z-index: 3;
+  }
+  .hamburgerMenuItems4,
+  .hamburgerMenuItems5 {
+    z-index: 4;
+  }
+  .hamburgerMenuItems5 {
+    z-index: 5;
+  }
+  .hamburgerMenu3Icon {
+    position: absolute;
+    margin: 0 !important;
+    top: -42px;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    z-index: 6;
+  }
+  .hamburgerMenu {
+    /* remove position, top, left */
+    margin-top: 12px;
+    background-color: var(--color-white);
+    width: 300px;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-10xs);
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-neue-montreal);
+  }
+  
+  

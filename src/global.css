@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/public/NeueMontreal-Medium.otf");
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-neue-montreal: "Neue Montreal";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-smi: 13px;
+  --font-size-mini: 15px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-7xl: 26px;
+  --font-size-3xl: 22px;
+  --font-size-xl: 20px;
+  --font-size-26xl: 45px;
+  --font-size-mid: 17px;
+  --font-size-lgi: 19px;
+  --font-size-41xl: 60px;
+  --font-size-31xl: 50px;
+  --font-size-21xl: 40px;
+  --font-size-16xl: 35px;
+
+  /* Colors */
+  --color-gray-100: #121123;
+  --color-gray-200: #020410;
+  --color-gray-300: #040405;
+  --color-gray-400: rgba(18, 17, 35, 0);
+  --color-gray-500: rgba(18, 17, 35, 0.5);
+  --color-gray-600: rgba(255, 255, 255, 0);
+  --color-white: #fff;
+  --color-darkslategray: rgba(58, 58, 66, 0.13);
+  --color-thistle-100: #dcccf6;
+  --color-thistle-200: #d8c9f1;
+  --color-thistle-300: #d4c6ec;
+  --color-thistle-400: rgba(216, 201, 241, 0);
+  --color-thistle-500: rgba(191, 177, 214, 0);
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-3xs: 10px;
+  --gap-11xl: 30px;
+  --gap-xl: 20px;
+  --gap-xs: 12px;
+  --gap-21xl: 40px;
+  --gap-6xl: 25px;
+  --gap-7xs: 6px;
+  --gap-31xl: 50px;
+  --gap-mini: 15px;
+
+  /* Paddings */
+  --padding-11xl: 30px;
+  --padding-45xl: 64px;
+  --padding-mini: 15px;
+  --padding-13xl: 32px;
+  --padding-base: 16px;
+  --padding-sm: 14px;
+  --padding-2xl: 21px;
+  --padding-8xs: 5px;
+  --padding-5xs: 8px;
+  --padding-4xs: 9px;
+  --padding-6xs: 7px;
+  --padding-xs: 12px;
+  --padding-3xs: 10px;
+  --padding-12xs: 1px;
+  --padding-xl: 20px;
+  --padding-61xl: 80px;
+  --padding-6xl: 25px;
+  --padding-2xs: 11px;
+  --padding-lg: 18px;
+  --padding-10xs: 3px;
+  --padding-31xl: 50px;
+  --padding-3xl: 22px;
+  --padding-16xl: 35px;
+
+  /* border radiuses */
+  --br-mini: 15px;
+  --br-3xs: 10px;
+}
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+

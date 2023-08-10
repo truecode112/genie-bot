@@ -1,0 +1,207 @@
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.logo31 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 250px;
+  height: 68px;
+  background-image: url(/public/GenieLogo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.logoPlaceholder {
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuItem {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-neue-montreal);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+
+.menuItem:hover {
+  color: var(--color-thistle-200);
+}
+
+.menuItems,
+.menuitem1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.menuitem1 {
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.menuItems {
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-31xl);
+}
+
+.Brixton {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-neue-montreal);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.connectButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.hamburgerMenuChild {
+  background-color: var(--color-black);
+  width: 24px;
+  height: 2px;
+}
+
+.hamburgerMenu,
+.menuButtons {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+}
+
+.hamburgerMenu {
+  cursor: pointer;
+  border: 0;
+  padding: 12px;
+  background-color: var(--color-white);
+  width: 42px;
+  height: 42px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+
+.headerContainer,
+.headerWeb3 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+
+  animation: fadeIn 2s ease-in-out;
+  -webkit-animation: fadeIn 2s ease-in-out;
+  -moz-animation: fadeIn 2s ease-in-out;
+  -o-animation: fadeIn 2s ease-in-out;
+  -ms-animation: fadeIn 2s ease-in-out;
+}
+
+.headerContainer {
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-3xs) 0 var(--padding-10xs);
+  justify-content: space-between;
+}
+
+.headerWeb3 {
+  background-color: var(--color-gray-200);
+  height: 97px;
+  flex-direction: column;
+  padding: 0 var(--padding-45xl);
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .connectWallet,
+  .menuItem {
+    font-size: var(--font-size-mid);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .logo31 {
+    width: 190px;
+    height: 51px;
+  }
+  .connectButton,
+  .menuItems {
+    display: none;
+  }
+  .hamburgerMenu {
+    display: flex;
+    width: 40px;
+    height: 40px;
+  }
+  .headerWeb3 {
+    height: 85px;
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .brixton {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .brixton {
+    display: none !important;
+  }
+  .menuItems {
+    display: none;
+  }
+  .hamburgerMenu {
+    display: flex;
+  }
+  .headerWeb3 {
+    height: 80px;
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 68px;  /* increased from 42px to move the dropdown down */
+  right: 31px;  /* adjusted from 0px to move the dropdown to the right */
+  z-index: 2000;
+}

@@ -1,0 +1,126 @@
+.questions {
+  color: var(--color-thistle-200);
+}
+.forQuestions1 {
+  position: relative;
+  font-weight: 500;
+}
+.forQuestionsWrapper,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  background-color: var(--color-thistle-400);
+  width: 277px;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pleaseContactGeniebotinfo {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 266px;
+  flex-shrink: 0;
+}
+.frameGroup,
+.pleaseContactGeniebotinfoOWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pleaseContactGeniebotinfoOWrapper {
+  align-self: stretch;
+  background-color: var(--color-thistle-500);
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  font-size: var(--font-size-lg);
+}
+.frameGroup {
+  flex: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(191, 177, 214, 0) 43.23%,
+    rgba(221, 215, 232, 0)
+  );
+  height: 209px;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.atomsiconsblackcurveEdget {
+  position: relative;
+  border-radius: var(--br-mini);
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.atomsiconsblackcurveEdgetWrapper {
+  flex: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(191, 177, 214, 0) 43.23%,
+    rgba(221, 215, 232, 0)
+  );
+  height: 188px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.atomsiconsblackcurveEdget:hover{
+  transform: scale(1.05);
+}
+.forQuestion,
+.frameParent {
+  width: 723px;
+  display: flex;
+  flex-direction: row;
+}
+.frameParent {
+  background-color: var(--color-darkslategray);
+  height: 211px;
+  align-items: center;
+  justify-content: center;
+}
+.forQuestion {
+  height: 200px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.forQuestionWrapper,
+.forQuestions {
+  align-self: stretch;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.forQuestionWrapper {
+  padding: var(--padding-xl) var(--padding-45xl);
+  box-sizing: border-box;
+}
+.forQuestions {
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  font-family: var(--font-neue-montreal);
+}
+@media screen and (max-width: 1200px) {
+  .forQuestions1 {
+    font-size: var(--font-size-3xl);
+  }
+  .pleaseContactGeniebotinfo {
+    font-size: var(--font-size-base);
+  }
+}
